@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВоФронтенде</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <span id="logo-text">VF</span>
+            </div>
+            <h1 id=logo-name>ВФРОНТЕНДЕ</h1>
+            <div class="search">
+                <input type="search" id="search">
+                <button>Поиск</button>
+            </div>
+            <div id="user">
+                <img id="avatar" src="images/avatar.png" alt="Аватар">                
+                <p id="user-name">
+                    Дмитрий
+                </p>
+            </div>
+        </div>
+        
+    </header>
+    <section>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Моя страница</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Сообщения</a>
+                    </li>
+                    <li>
+                        <a href="#">Планировщик</a>
+                    </li>
+                    <li>
+                        <a href="#">Занятия</a>
+                    </li>
+                    <li>
+                        <a href="#">Библиотека</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h2>Планировщик</h2>
+                <div id="to-do-list">
+                    <ul><p class="task-name">Сверстать первый сайт.</p>
+                        <li>
+                            <p><input type="checkbox" class="task">Украсть дизайн у ВК из 2008 года.</p>
+                        </li>
+                        <li>
+                            <p><input type="checkbox" class="task">Сделать макет на:</p>
+                            <form>
+                                <div>
+                                  <input type="radio" name="contact">
+                                  <label for="contactChoice1">Flexbox</label>
+                              
+                                  <input type="radio" name="contact">
+                                  <label for="contactChoice1">Grid Layout</label>
+
+                                  <input type="radio" name="contact">
+                                  <label for="contactChoice1">Float'ы</label>
+                                </div>
+                            </form>
+                        </li>
+                        <li>
+                            <p><input type="checkbox" class="task">Задать стили.</p>
+                        </li>
+                        <li>
+                            <p><input type="checkbox" class="task">Поправить баги.</p>
+                        </li>
+                        <li>
+                            <p><input type="checkbox" class="task">Наделать костылей.</p>
+                        </li>                        
+                        <li>
+                            <p><input type="checkbox" class="task">Отправить на проверку.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lists-block">
+                <div id="list-of-lists">   
+                    <p id="all-plans">Все планы</p>
+                    <img src="images/arrow-down.png" id="arrow" alt=></img>                 
+                    <ul class="drop-menu">⁣                    
+                        <li class="drop-item">Сверстать первый сайт.</li>
+                        <li class="drop-item">Сверстать второй сайт.</li>
+                        <li class="drop-item">Сверстать третий сайт.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            
+        </div>
+    </footer>
+</body>
+</html>

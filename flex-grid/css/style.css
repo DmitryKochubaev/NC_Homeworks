@@ -1,0 +1,223 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	height: 100px;
+}
+
+section {
+	background-color: gainsboro;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.container * {
+	border-radius: 5px;
+}
+
+.container#header {
+	align-items: center;
+	height: 50px;
+}
+
+.container#header div:first-child {
+	background-color: dodgerblue;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	margin: 10px;
+}
+
+.container#header div:first-child p {
+	margin: 0 auto;
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+
+.container#header h1 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.container#header div:last-child {
+	width: 150px;
+	margin-left: auto;
+}
+
+.container#header div:last-child:hover {
+	background-color: #f2f2f2;
+}
+
+.container#header div:last-child img {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin: 5px;
+}
+
+.container#header div:last-child p {
+	float: right;
+	margin-right: 10px;
+	margin-top: 17px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.container#section {
+	height: 790px;
+}
+
+.container#section nav {
+	width: 200px;
+	height: 600px;
+	margin: 15px 15px 15px 10px;
+}
+
+.container#section nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+.container#section nav ul li {
+	position: relative;
+	padding: 12px 10px 10px 28px;
+}
+
+.container#section nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.container#section nav ul li:hover {
+	background-color: lightgray;
+}
+
+.container#section .content {
+	width: 555px;
+	height: 760px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.container#section .content h2 {
+	margin: 10px 0px 10px 0px;
+	padding: 0px 0px 5px 15px;
+	font-weight: 500;
+	border-bottom: 4px solid gainsboro;
+	border-radius: 0px;
+	font-size: 28px;
+}
+
+.container#section .content ul {
+	padding: 0;
+	list-style: none;
+	margin-left: 15px;
+}
+
+.container#section .content ul > p {
+	font-size: 18px;
+}
+
+.container#section .content ul li form {
+	margin-left: 15px;
+}
+
+.container#section .content ul li {
+	margin-left: 15px;
+}
+
+.container#section .content ul li form {
+	margin-top: 3px;
+}
+
+.container#section .content ul li > * {
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.container#section .content ul li input:checked + span {
+	text-decoration: line-through;
+	color: grey;
+	transition: 0.3s;
+}
+
+.container#section .content ul li input:checked + span + form {
+	text-decoration: line-through;
+	color: grey;
+	transition: 0.3s;
+}
+
+.container#section > div:last-child {
+	height: 230px;
+	width: 200px;
+	margin: 15px 5px 15px auto;
+	background-color: white;
+}
+
+.container#section > div:last-child > div {
+	border: 2px solid gainsboro;
+	height: 42px;
+	margin: 5px 5px 0px 5px;
+}
+
+.container#section > div:last-child > div > p {
+	margin: 11px 0px 0px 10px;
+	font-size: 20px;
+	float: left;
+}
+
+.container#section > div:last-child > div > img {
+	width: 20px;
+	height: 13px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 12px;
+}
+
+.container#section > div:last-child > div:hover + ul {
+	visibility: visible;
+	transition: 0.3s;
+}
+
+.container#section > div:last-child > ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	height: 172px;
+	width: 186px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	visibility: hidden;
+}
+
+.container#section > div:last-child > ul li {
+	border: gainsboro 1px solid;
+	width: 186px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	top: -19px;
+	padding-top: 15px;
+}
+
+.container#section > div:last-child > ul li:hover {
+	background-color: gainsboro;
+}
+
+.container#section > div:last-child > ul:hover {
+	visibility: visible;
+}

@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#logo {
+    background-color: dodgerblue;
+    height: 30px;
+    width: 30px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+#user {
+    float: right;
+    width: 150px;
+    height: 50px;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.search {
+    float: left;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+#logo-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+#logo-name {
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#search {
+    margin-top: 13px;
+}
+
+#avatar {
+    width: 40px;
+    height: 40px;
+    border: none;
+    float: right;
+    margin: 5px;
+}
+
+#user-name {
+    float: right;
+    margin-right: 10px;
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav {
+    float: left;
+    width: 200px;
+    height: 600px;
+}
+
+.content {
+    float: left;
+    
+    width: 500px;
+    height: 760px;
+    margin: 15px;
+    background-color: white;
+}
+
+section {
+    background-color: gainsboro; 
+    height: 790px;
+}
+
+.lists-block {
+    float: right;
+    height: 230px;
+    margin: 15px 0px 15px 0px;
+    background-color: white;
+    width: 200px;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    padding:12px 10px 10px 28px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: lightgray;
+}
+
+#user:hover {
+    background-color: #f2f2f2;
+}
+
+* {
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 5px 15px;
+    font-weight: 500;
+    border-bottom: 4px solid gainsboro;
+    border-radius: 0px;
+    font-size: 28px;
+}
+
+form {
+    margin-left: 15px;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.task-name {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#list-of-lists {    
+    border: 2px solid gainsboro;
+    height: 42px;
+    margin: 5px;
+}
+
+#all-plans {
+    padding: 7px 0px 0px 10px;
+    font-size: 20px;
+    float: left;
+}
+
+#arrow {
+    width: 20px;
+    height: 13px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.drop-menu {
+    margin: 0;
+    background: none;
+    padding: 0;
+}
+
+.drop-item {
+    visibility: hidden;
+    padding: 10px;
+    margin: 0;
+    border: gainsboro 1px solid;
+    position: relative;
+    top: 22px;
+}
+
+#list-of-lists:hover .drop-menu .drop-item {
+    visibility: visible;
+    transition: all 0.25s;
+}
